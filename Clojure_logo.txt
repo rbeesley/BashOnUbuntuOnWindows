@@ -1,0 +1,8 @@
+Online conversion tool:
+https://cloudconvert.com/svg-to-ico
+
+{INPUTFILE} https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg
+{OUTPUTFILE} Clojure_logo.ico
+
+imagemagick command:
+convert -density 384 -background transparent {INPUTFILE} -define icon:auto-resize {OUTPUTFILE}
